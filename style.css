@@ -18,3 +18,61 @@ html, body {
 * {
     font-family: 'Open Sans', sans-serif !important;
 }
+
+h1 {
+    font-size: 4rem;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header {
+    background-image: url("https://previews.123rf.com/images/mrtwister/mrtwister1708/mrtwister170800058/84169472-watercolor-palette-with-paintbrushes-on-multicolored-hand-painted-background.jpg");
+    height: 150px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    text-shadow: 2px 2px 2px rgb(170, 117, 126);
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 6px 0 6px 0;
+}
+
+.menu button { background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+.menu button {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+
+    font-size: 1.2rem;
+    width: 150px;
+    font-weight: bold;
+    border: none;
+}
+
+.menu button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
