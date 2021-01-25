@@ -84,3 +84,16 @@ h1, h2 {
 .content img {
     margin: 5px;
 }
+.footer {
+    background-color: #632b11;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer a {
+    font-size: 1.2rem;
+    color:rgb(236, 213, 213);
+}
